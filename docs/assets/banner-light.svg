@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title description">
+<title id="title">Until — a little closer, every day.</title><desc id="description">Editorial banner in warm beige and forest green, with an hourglass surrounded by fine orbital lines.</desc>
+<defs><clipPath id="frame"><rect width="1200" height="500" rx="20"/></clipPath></defs>
+<g clip-path="url(#frame)"><rect width="1200" height="500" fill="#f3eddf"/>
+<rect x=".5" y=".5" width="1199" height="499" rx="20" fill="none" stroke="#d5cebb"/>
+<path d="M72 406H1128" stroke="#d5cebb"/>
+<g fill="#53614e" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="3"><text x="74" y="64">FOR THE MOMENTS THAT MATTER</text><text x="74" y="450" letter-spacing="2">STATIC BY DESIGN. PERSONAL BY NATURE.</text></g>
+<text x="65" y="220" fill="#17392d" font-family="Georgia, 'Times New Roman', serif" font-size="164" letter-spacing="-10">until<tspan fill="#53614e">.</tspan></text>
+<g fill="#17392d" font-family="Georgia, 'Times New Roman', serif" font-size="41" letter-spacing="-1"><text x="73" y="290">A little closer,</text><text x="73" y="341" font-style="italic">every day.</text></g>
+<g transform="translate(915 227)"><circle r="133" fill="#234d3c"/>
+<ellipse rx="189" ry="71" transform="rotate(-34)" fill="none" stroke="#53614e" stroke-opacity=".55" stroke-width="1.2"/>
+<ellipse rx="189" ry="71" transform="rotate(34)" fill="none" stroke="#53614e" stroke-opacity=".55" stroke-width="1.2"/>
+<circle r="162" fill="none" stroke="#53614e" stroke-opacity=".25"/>
+<g fill="none" stroke="#f3eddf" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><path d="M-47-76H47M-47 76H47M-39-74v23c0 22 25 29 39 51-14 22-39 29-39 51v23M39-74v23c0 22-25 29-39 51 14 22 39 29 39 51v23"/><path d="m-26 58 26-32 26 32Z" fill="#f3eddf" stroke="none"/></g><circle cx="155" cy="-42" r="5" fill="#17392d"/><circle cx="-160" cy="39" r="3" fill="#53614e"/>
+</g>
+<g fill="#53614e" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="1.1"><text x="827" y="450">OFFLINE</text><circle cx="918" cy="446" r="2" fill="#d5cebb"/><text x="945" y="450">ON YOUR DEVICE</text></g>
+</g></svg>
