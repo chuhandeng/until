@@ -21,9 +21,6 @@
 <p align="center">
   <a href="#features">Features</a> ·
   <a href="#get-started">Get started</a> ·
-  <a href="#deploy-to-github-pages">Deploy</a> ·
-  <a href="docs/guide.md">User guide</a> ·
-  <a href="RELEASE.md">Release notes</a>
 </p>
 
 ---
@@ -75,34 +72,7 @@ For Home Screen installation, publish the app over HTTPS, then open it in Safari
 2. Open the Until icon while online.
 3. Wait for **Ready offline** before taking it offline.
 
-### Run the source
-
-Use **Node.js 24**, then run these commands from the source folder:
-
-```sh
-npm ci
-npm run dev
-```
-
-Open [localhost:5173](http://127.0.0.1:5173). The development server leaves offline caching disabled; use a production preview to test installation and offline behavior.
-
-## Deploy to GitHub Pages
-
-| Ready-made files | Build from source |
-| :--- | :--- |
-| Upload the extracted release contents to your repository. Keep `index.html`, `sw.js`, the manifest, icons and `.nojekyll` together. Include this README and `docs/` for the repository presentation. | Commit the source, including `.github/workflows/pages.yml`, `package.json` and `package-lock.json`. |
-| In **Settings → Pages**, choose **Deploy from a branch → main → / (root)**. | In **Settings → Pages**, choose **GitHub Actions**, then push to `main` or run the supplied deployment workflow. |
-| GitHub provides the published HTTPS address once deployment finishes. | The workflow audits dependencies, checks types, runs tests, verifies the release, and deploys `dist/`. |
-
-Root sites, repository paths and custom domains use the same build. No repository-name edits or custom secrets are needed. If your default branch has a different name, adjust the workflow's branch setting.
-
-**[Read the full deployment and installation guide →](docs/guide.md)**
-
-## Your collection stays with you
-
-Until stores countdowns on this device, in this browser. It does not include analytics, external fonts, remote runtime scripts or an account service. Ordinary hosting requests still go to your hosting provider.
-
-Use **Settings → Export backup** before changing devices, moving the app to another address, or clearing website data. **Import backup** validates the collection before replacing it. Unreadable saved data is preserved for recovery; blocked storage is clearly marked **Session only**.
+*Settings → Export backup** before changing devices, moving the app to another address, or clearing website data. **Import backup** validates the collection before replacing it. Unreadable saved data is preserved for recovery; blocked storage is clearly marked **Session only**.
 
 <details>
 <summary><strong>Storage, updates and security details</strong></summary>
@@ -112,29 +82,6 @@ Use **Settings → Export backup** before changing devices, moving the app to an
 - Offline readiness checks the complete cache. Clearing website data removes both the collection and the offline app; browsers may also reclaim storage.
 - Updates download a complete version before offering **Update & reopen**. Save or cancel open edits first.
 - Generated HTML includes a script/style hash policy. Publish complete builds together; rebuild rather than hand-editing the generated HTML or worker.
-
-More detail is in the [user guide](docs/guide.md) and [release notes](RELEASE.md).
-
-</details>
-
-## Built with care
-
-**React 19 · TypeScript · Vite · Native browser storage · Service workers**
-
-The interface uses native CSS and IntersectionObserver for motion. Runtime assets are bundled locally, and the production build produces portable HTML with a complete offline cache.
-
-```sh
-npm run typecheck
-npm test
-npm run build
-npm run preview
-```
-
-Open [localhost:5181](http://127.0.0.1:5181) for the production preview.
-
-Release **1.1.0** passes **35 automated tests**, type checking and build integrity checks. These cover long dates, calendar boundaries, timezones, daylight saving, check-ins, storage failure, backup validation, offline caches and motion fallback. Validation scope and device-testing limits are recorded in [RELEASE.md](RELEASE.md).
-
-**[Explore the development guide →](docs/development.md)**
 
 ---
 
