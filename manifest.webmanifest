@@ -1,0 +1,10 @@
+{
+  "id": "./", "name": "Until — things worth looking forward to", "short_name": "Until",
+  "description": "Your important moments, a little closer every day.",
+  "start_url": "./", "scope": "./", "display": "standalone", "background_color": "#f3eddf", "theme_color": "#f3eddf",
+  "icons": [
+    { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
