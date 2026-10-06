@@ -64,8 +64,6 @@ It runs as a static web app, installs on your Home Screen, and works offline aft
 
 ### Open the ready-made app
 
-Extract **Until-github-pages.zip** and open `index.html`, or double-click **Until.html**. The built HTML includes its own code and styles. Use the built download for this route; the source entry point requires the development server or a build.
-
 For Home Screen installation, publish the app over HTTPS, then open it in Safari:
 
 1. Tap **Share → Add to Home Screen**.
