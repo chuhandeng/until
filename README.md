@@ -73,13 +73,6 @@ For Home Screen installation, publish the app over HTTPS, then open it in Safari
 *Settings → Export backup** before changing devices, moving the app to another address, or clearing website data. **Import backup** validates the collection before replacing it. Unreadable saved data is preserved for recovery; blocked storage is clearly marked **Session only**.
 
 <details>
-<summary><strong>Storage, updates and security details</strong></summary>
-
-- Browser storage and exported backups are not encrypted. Keep private notes and backup files accordingly.
-- A local-file collection and a hosted collection use separate storage. Export and import to move between them.
-- Offline readiness checks the complete cache. Clearing website data removes both the collection and the offline app; browsers may also reclaim storage.
-- Updates download a complete version before offering **Update & reopen**. Save or cancel open edits first.
-- Generated HTML includes a script/style hash policy. Publish complete builds together; rebuild rather than hand-editing the generated HTML or worker.
 
 ---
 
